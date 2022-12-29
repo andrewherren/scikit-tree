@@ -20,11 +20,12 @@ Building scikit-tree from the Github source largely follows the instructions giv
 instructions. For MacOS and Linux this can be accomplished by installing python dependencies, compilers, and C/C++ dependencies into 
 a conda environment via conda-forge::
 
-    conda create -n partition_env -c conda-forge python=3.10 numpy scipy cython pytest matplotlib pandas \
+    conda create -n partition_env -c conda-forge python=3.10 \ 
+        numpy scipy cython pytest matplotlib pandas \
         joblib threadpoolctl pytest compilers llvm-openmp
     
     conda activate partition_env
-    
+
     cd ~/[path to folder]/scikit-tree
     python setup.py clean
     pip install --no-build-isolation -e .
