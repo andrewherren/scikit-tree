@@ -37,7 +37,7 @@ from sklearn.utils.validation import _check_sample_weight
 from sklearn.utils import compute_sample_weight
 from sklearn.utils.multiclass import check_classification_targets
 from sklearn.utils.validation import check_is_fitted
-from ..utils._param_validation import Hidden, Interval, StrOptions
+from sklearn.utils._param_validation import Hidden, Interval, StrOptions
 
 from ._criterion import Criterion
 from ._splitter import Splitter
