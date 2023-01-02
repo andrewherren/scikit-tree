@@ -21,7 +21,7 @@ instructions. For MacOS and Linux this can be accomplished by installing python 
 a conda environment via conda-forge::
 
     conda create -n partition_env -c conda-forge python=3.10 \ 
-        numpy scipy cython pytest matplotlib pandas \
+        numpy scipy cython pytest matplotlib pandas scikit-learn \
         joblib threadpoolctl pytest compilers llvm-openmp
     
     conda activate partition_env
